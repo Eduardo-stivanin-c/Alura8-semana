@@ -1,1 +1,7 @@
-# Requer Node JS versão 
+Criado por Eduardo 
+# Requer Node JS 
+
+-imcompativel com navegadores 
+
+
+
