@@ -5,7 +5,7 @@ const menorValor=require('./menorvalor');
 
 
 
-for (let atual = 0; atual < livros.length; atual++) {
+for (let atual = 0; atual < livros.length -1; atual++) {
 
     let menor = menorValor(livros,atual)
 
@@ -19,7 +19,21 @@ for (let atual = 0; atual < livros.length; atual++) {
 
     livros[atual]=livrosMenorPreco;
 
-    livros[menor]=livroAtual
+    livros[menor]=livroAtual;
 }
 //
 //console.log(menorValor);
+
+//abaixo é o  Faça como eu fiz da Alura
+//Faça como eu fiz: Usando loops do JavaScript 
+livros.forEach((_, indice) => {
+    let menor = menorValor(livros, indice)
+   
+    let livroAtual = livros[indice];
+    let livroMenorPreco = livros[menor];
+   
+    livros[indice] = livroMenorPreco
+    livros[menor] = livroAtual 
+   })
+   
+   console.log(livros)

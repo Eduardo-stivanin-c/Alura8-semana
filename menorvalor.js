@@ -18,11 +18,10 @@ for (let atual = 0; atual < arrProdutos.length; atual++) {
     } 
     return maisbarato;
 }  
+
 }
-
-
 
 //exporta pra poutro arquvio Jqavascrpt
 
-module.export=menorValor;
+module.exports=menorValor;
 //console.log( `O livro mais barato custa ${livros[maisbarato].preco}  e o título é ${livros[maisbarato].titulo} ` ); 
