@@ -3,11 +3,12 @@ const { edGalho, edFolha } = require('./arrays.js')
 
 function juntalistas(lista1, lista2) {
     let listaFinal = [];
-
     let posicaoAtualLista1 = 0;
     let posicaoAtualLista2 = 0;
+    let atual=0;
     //loop enquanito mposição atual lista1  fim da matriz e mposição atual lista1  fim  
-    while (posicaoAtualLista1 < lista1.length && posicaoAtualLista1) {
+
+    while (posicaoAtualLista1 < lista1.length && posicaoAtualLista2 < lista2.length) {
         let produtoAtualLista1 = lista1[posicaoAtualLista1];
         let produtoAtualLista2 = lista2[posicaoAtualLista2];
         console.log(`comparando ${produtoAtualLista1.titulo}`);
