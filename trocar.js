@@ -4,10 +4,10 @@
 //const lista=require("./listaLivros");
 //const menorValor=require('./menorvalor');
 
-let itemAnalise = lista[atual];
-let itemAnterior = lista[analise -1 ];
-lista[analise ] = itemAnterior;
-lista[analise -1] =itemAnalise;  
+//let itemAnalise = lista[atual];
+//let itemAnterior = lista[analise -1 ];
+//lista[analise ] = itemAnterior;
+//lista[analise -1] =itemAnalise;  
 
 
 function troca(lista, analise) {
