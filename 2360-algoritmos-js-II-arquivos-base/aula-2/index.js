@@ -15,11 +15,15 @@ array=ordena(parte1,parte2);
 } 
 
 return array;
-}
-function ordena(lista1, lista2) {
+}//porblema de copiar e colar da aula anterior
+//é argumento s parte1 ,parte2
+function ordena(parte1, parte2) {
+    
+    
+    
     let posicaoAtualParte1=0;
     let posicaoAtualParte2=0;
-    const resultado=[]
+    const resultado=[];
     while (posicaoAtualParte1<parte1.length && posicaoAtualParte2 < parte2.length) {
         let produtoAtualParte1=parte1[posicaoAtualParte1];
         let produtoAtualParte2=parte2[posicaoAtualParte2];
