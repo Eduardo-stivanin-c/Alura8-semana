@@ -30,7 +30,7 @@ if (indiceAtual < direita) {
 
 
 function particiona(array,esquerda,direita) {
-       
+       log
 let pivo =array[Math.floor((esquerda+direita)/2)];
 let atualEsquerda=esquerda;
 let atualDireita=direita;
