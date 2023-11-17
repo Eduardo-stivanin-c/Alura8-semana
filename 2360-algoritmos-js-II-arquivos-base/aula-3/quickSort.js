@@ -51,10 +51,10 @@ if (atualEsquerda <=atualDireita) {
 
 } 
 
-return atualEsquerda;
+
 
 }
-
+return atualEsquerda;
 }
 
 console.log(quickSort(listaLivros,0,listaLivros.length-1));
